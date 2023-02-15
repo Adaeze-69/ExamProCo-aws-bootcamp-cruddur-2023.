@@ -1,2 +1,2 @@
 # Week 0 — Billing and Architecture
-#JOURNALING
+# JOURNALING
