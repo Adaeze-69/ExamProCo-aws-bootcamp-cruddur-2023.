@@ -1,6 +1,6 @@
 {
     "BudgetLimit": {
-        "Amount": "1",
+        "Amount": "10",
         "Unit": "USD"
     },
     "BudgetName": "One Dollar Budget",
