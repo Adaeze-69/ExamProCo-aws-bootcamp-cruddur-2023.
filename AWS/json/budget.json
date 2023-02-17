@@ -3,7 +3,7 @@
         "Amount": "10",
         "Unit": "USD"
     },
-    "BudgetName": "One Dollar Budget",
+    "BudgetName": "Ten Dollar Budget",
     "BudgetType": "COST",
     "CostFilters": {
         "TagKeyValue": [
