@@ -1,9 +1,9 @@
 {
     "BudgetLimit": {
-        "Amount": "10",
+        "Amount": "1",
         "Unit": "USD"
     },
-    "BudgetName": "Ten Dollar Budget",
+    "BudgetName": "One Dollar Budget",
     "BudgetType": "COST",
     "CostFilters": {
         "TagKeyValue": [
