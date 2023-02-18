@@ -1,7 +1,7 @@
 # Week 0 — Billing and Architecture
 # JOURNALING
 
-# Create a Userin my AWS Root Account
+# Create a User in my AWS Root Account
 I created a user and assigned Billing and Admin policy to it from my root account. My user account Adaeze_Ontario_BootCamp1 is what I will be using for the bootcamp to do my hands-on projects.
 
 
@@ -26,20 +26,15 @@ sudo ./aws/install
 
 ```
 
-tasks:
-  - name: aws-cli
-    env:
-      AWS_CLI_AUTO_PROMPT: on-partial
-    init: |
-      cd /workspace
-      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-      unzip awscliv2.zip
-      sudo ./aws/install
-      cd $THEIA_WORKSPACE_ROOT
-vscode:
-  extensions:
-    - 42Crunch.vscode-openapi
-    
+Output of Command
+
+```
+{
+    "UserId": "AKIASH3YIYXYN5FLCBFJ",
+    "Account": "154334184944",
+    "Arn": "arn:aws:iam::154334184944:user/Adaeze_Ontario_BootCamp1"
+}
+```
     
   # Cruddur- Logical Architectural Diagram
   I created a Logical Architectural diagram for the Crudder Application in a detailed form I am working on in this cause of this bootcamp. I am using servicess like S3 bucket,DNS,Load Balancer, App Sync, Amazon Dynamo DB and a host of others. Below is the image of the diagram but you can find the link to my diagram in [my Lucid Chart here](https://lucid.app/lucidchart/3f4b4426-2636-4e54-b51f-98f6ca1811aa/edit?viewport_loc=-1242%2C160%2C4314%2C2005%2C0_0&invitationId=inv_9dfcd7bd-60b5-491d-90e7-780cb5bcc978)
