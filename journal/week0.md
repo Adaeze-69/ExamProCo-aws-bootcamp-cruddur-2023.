@@ -35,6 +35,13 @@ Output of Command
     "Arn": "arn:aws:iam::154334184944:user/Adaeze_Ontario_BootCamp1"
 }
 ```
+**Below is a proof of the CLI run in my GitPod**
+
+![CLI in GitPod](assets/Gitpod-CLI.png)
+
+# AWS CloudShell
+I run AWS CLI also in AWS CLI and got same result below.
+1![AWS Cloushell](assets/AWS-CloudShell.png)
     
   # Cruddur Logical Architectural Diagram
   I created a Logical Architectural diagram for the Crudder Application in a detailed form I am working on in this cause of this bootcamp. I am using servicess like S3 bucket,DNS,Load Balancer, App Sync, Amazon Dynamo DB and a host of others. Below is the image of the diagram but you can find the link to my diagram in [my Lucid Chart here](https://lucid.app/lucidchart/3f4b4426-2636-4e54-b51f-98f6ca1811aa/edit?viewport_loc=-1242%2C160%2C4314%2C2005%2C0_0&invitationId=inv_9dfcd7bd-60b5-491d-90e7-780cb5bcc978)
@@ -43,3 +50,6 @@ Output of Command
 # Conceptual Diagram of Cruddur on Napkin
 I drew a conceptual diagram on a napkin showing how few of the services will be used to set up the Cruddur application. Services like momento, messaging system,database,timeline service and a couple of other services were illustrated in it. Below is the diagram illustration.
 ![Conceptual Diagram of Cruddur app on Napkin](assets/Conceptual-Diagram-on-Napkin.jpg)
+
+
+
